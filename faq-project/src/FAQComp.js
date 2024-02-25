@@ -16,7 +16,7 @@ function FAQComp() {
                "answer": "JSX is a syntax extension for JavaScript used with React. It allows developers to write HTML elements and structures in their JavaScript code."
           },
           {
-               "question": "What is the purpose of state in React?",
+               "question": "What is the purpose of state in React",
                "answer": "State in React is used to store and manage component-specific data. It allows components to maintain and update their own data."
           }
      ]
