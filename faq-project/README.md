@@ -4,6 +4,10 @@
 
 The FAQ Component is a React-based component designed to display a list of frequently asked questions (FAQs) along with their corresponding answers in a collapsible format.
 
+## Project snapshot
+![demo of picture](https://github.com/poojagithub2407/React-Project/assets/96479230/86056597-1f3b-41aa-a53d-118c1fb57cce)
+
+
 ## Usage
 
 To use the FAQ Component in your React application, follow these steps:
