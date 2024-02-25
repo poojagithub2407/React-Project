@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# FAQ Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The FAQ Component is a React-based component designed to display a list of frequently asked questions (FAQs) along with their corresponding answers in a collapsible format.
 
-In the project directory, you can run:
+## Usage
 
-### `npm start`
+To use the FAQ Component in your React application, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Installation**: Install the necessary dependencies using npm:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
 
-### `npm test`
+## Component
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# FAQComp
 
-### `npm run build`
+The FAQComp component renders the list of FAQ items using the provided data. Each FAQ item is represented by the FAQItem component.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Props
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- faqDatas: An array of objects containing FAQ data, where each object has question and answer properties.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# FAQItem
 
-### `npm run eject`
+- The FAQItem component represents an individual FAQ item. It manages the state to toggle the display of the answer when the question is clicked.
+- Props
+- faqData: An object containing the FAQ data with question and answer properties.
+- index: The index of the FAQ item in the list.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Styling
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Basic styling is applied to the FAQ components to improve readability and user experience. You can customize the styles according to your project requirements.
